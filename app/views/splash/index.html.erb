@@ -1,0 +1,18 @@
+<div class="container-fluid text-center">
+  <div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="display-4">Welcome to Finance Tracker</h1>
+      <img src="<%= asset_path('logo.png') %>" alt="Finance Tracker Logo" class="img-fluid my-4">
+      <p class="lead">Track your finances with ease.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="d-grid gap-2">
+        <%= link_to "Sign in", new_user_session_path, class: "btn btn-primary btn-lg mb-2" %>
+        <%= link_to "Sign up", new_user_registration_path, class: "btn btn-secondary btn-lg" %>
+      </div>
+    </div>
+  </div>
+</div>
+
