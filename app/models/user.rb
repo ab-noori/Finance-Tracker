@@ -4,9 +4,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-    has_many :categories
-    has_many :expenses
+  has_many :categories
+  has_many :expenses
 
-    validates :name, presence: true
-    validates :role, inclusion: { in: ["Admin", "User", "Guest"] }
+  validates :name, presence: true
+  validates :role, inclusion: { in: %w[Admin User Guest] }
 end
