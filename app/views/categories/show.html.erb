@@ -1,0 +1,33 @@
+<%= render partial: 'layouts/shared/navbar', locals: { back_destination: root_path, page_name: 'Transactions', link: { destination: destroy_user_session_path, label: 'Log Out' } } %>
+
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <div class="row no-gutters align-items-center">
+        <div class="col-md-2 col-4">
+          <div class="card-body">
+            <% if @category.icon.attached? %>
+              <%= image_tag @category.icon, style: 'width: 80px; height: 80px;', class: 'img-fluid rounded' %>
+            <% else %>
+              <div class="text-center">
+                No Icon Available
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <div class="col-md-8 col-5 p-0">
+          <div class="card-body text-secondary">
+            <h4 class="card-title"><%= @category.name %></h4>
+            <p class="mb-0"><%= @category.created_at.strftime("%d %b %Y %H:%M") %></p> <!-- Formatted date -->
+          </div>
+        </div>
+        <div class="col-md-2 col-3 text-md-center">
+          <div class="card-body text-dark font-weight-bold p-0 p-md-2">
+            <!-- Include the total for the category here -->
+            <h5 class="text-nowrap">$1500</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
