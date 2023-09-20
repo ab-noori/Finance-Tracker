@@ -14,26 +14,27 @@
  *= require_self
  */
 
- .no-underline {
+.no-underline {
   text-decoration: none;
-} 
+}
 
 /* Define the animation keyframes */
 @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
   }
-  
-  /* Apply the animation to the logo image */
-  .logo-image {
-    animation: pulse 3s infinite;
+
+  50% {
+    transform: scale(1.05);
   }
-  
-  
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the logo image */
+.logo-image {
+  animation: pulse 3s infinite;
+}
+
