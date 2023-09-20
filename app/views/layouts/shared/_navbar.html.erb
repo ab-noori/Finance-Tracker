@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
+  <div class="container">
+    <% if back_destination.present? %>
+      <a href="<%= back_destination %>" class="btn btn-link text-white">
+        <i class="fas fa-arrow-left fa-lg"></i>
+      </a>
+    <% end %>
+    <span class="navbar-brand mx-auto text-white"><%= page_name %></span>
+
+    <% if link.present? %>
+      <a href="<%= link[:destination] %>" class="ml-2 text-white no-underline"><%= link[:label] %></a>
+    <% end %>
+  </div>
+</nav>
