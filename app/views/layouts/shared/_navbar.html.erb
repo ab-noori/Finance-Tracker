@@ -4,11 +4,22 @@
       <a href="<%= back_destination %>" class="btn btn-link text-white">
         <i class="fas fa-arrow-left fa-lg"></i>
       </a>
+    <% else %>
+      <a href="#" class="btn btn-link text-white">
+        <i class="fas fa-bars fa-lg"></i>
+      </a>
     <% end %>
-    <span class="navbar-brand mx-auto text-white"><%= page_name %></span>
+    
+    <span class="navbar-brand mx-auto text-white text-center"> <!-- Added text-center class -->
+      <%= page_name %>
+    </span>
 
     <% if link.present? %>
-      <a href="<%= link[:destination] %>" class="ml-2 text-white no-underline"><%= link[:label] %></a>
+      <% if link[:label] == "Log Out" %>
+        <%= link_to "Log Out", link[:destination], data: { turbo_method: :delete }, class: "text-white nav-link" %>
+      <% else %>
+        <a href="<%= link[:destination] %>" class="text-white nav-link"><%= link[:label] %></a>
+      <% end %>
     <% end %>
   </div>
 </nav>
