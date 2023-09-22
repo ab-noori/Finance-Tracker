@@ -1,0 +1,37 @@
+<%= render partial: 'layouts/shared/navbar', locals: { back_destination: category_path(@category), page_name: 'New Transactions', link: { destination: destroy_user_session_path, label: 'Log Out' } } %>
+
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          New Transaction
+        </div>
+        <div class="card-body">
+          <%= form_with(model: @expense, url: category_expenses_path(@category), method: :post) do |form| %>
+            <div class="mb-3">
+              <%= form.label :name, class: "form-label" %>
+              <%= form.text_field :name, class: "form-control", required: true %>
+            </div>
+
+            <div class="mb-3">
+              <%= form.label :amount, class: "form-label" %>
+              <%= form.number_field :amount, class: "form-control", step: 0.01, required: true %>
+            </div>
+
+            <!-- Disabled category name field -->
+            <div class="mb-3">
+              <%= form.label 'Category', class: "form-label" %>
+              <%= form.hidden_field :category_id, value: @category.id %>
+              <%= text_field_tag 'category_name', @category.name, class: 'form-control', disabled: true %>
+            </div>
+
+            <div class="text-center">
+              <%= form.submit 'Save', class: "btn btn-primary" %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
