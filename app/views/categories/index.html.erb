@@ -1,7 +1,7 @@
 <%= render partial: 'layouts/shared/navbar', locals: { back_destination: '', page_name: 'Categories', link: { destination: destroy_user_session_path, label: 'Log Out' } } %>
 <%= render partial: "layouts/shared/messages" %>
 
-<div class="container position-relative" style="min-height: 100vh;">
+<div class="container position-relative" style="min-height: 90vh; padding-bottom: 10vh">
   <div class="row">
     <% @categories.each do |category| %>
       <div class="col-12">
@@ -28,7 +28,7 @@
               <div class="col-md-2 col-3 text-md-center">
                 <div class="card-body text-dark font-weight-bold p-0 p-md-2">
                   <!-- Include the total for the category here -->
-                  <h5 class="text-nowrap">$1500</h5>
+                  <h5 class="text-nowrap">$<%= category.expenses.sum(:amount) %></h5>
                 </div>
               </div>
             </div>
@@ -38,15 +38,7 @@
     <% end %>
   </div>
   
-  <div class="sticky-bottom mb-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <div class="d-grid gap-1">
-            <%= link_to "Add new category", new_category_path, class: "btn btn-success btn-lg mb-1" %>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="mx-auto text-center mb-3" style="position: absolute; bottom: 0; width: 100%;">
+    <%= link_to "Add new category", new_category_path, class: "col-8 col-md-4 btn btn-success btn-lg" %>
   </div>
 </div>
