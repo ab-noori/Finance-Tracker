@@ -8,6 +8,7 @@ class CategoriesController < ApplicationController
   def show
     @category = Category.find(params[:id])
     @transactions = @category.expenses.order(created_at: :desc)
+    @total_amount = @transactions.sum(:amount)
   end
 
   def new
