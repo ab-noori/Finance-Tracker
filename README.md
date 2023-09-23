@@ -18,6 +18,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -78,6 +79,12 @@
 | Implemented Schema's ERD |
 |---------------------------------------|
 |<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo & Project intro <a name="live-demo"></a>
+> - [Live Demo on Render](https://salsaldevgroup.onrender.com)
+> - [Introduction to the project]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
