@@ -184,7 +184,7 @@ To run tests, run the following command:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  First, I would like to thank Microverse and my coding partners, then I would like to give special credit to the creator of the design ([Gregoire Vella on Behance](https://www.behance.net/gregoirevella)) that I have used in my project.
+  First, I would like to thank Microverse and my coding partners, and then I would like to give special credit to the creator of the design ([Gregoire Vella on Behance](https://www.behance.net/gregoirevella)) that I have used in my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
