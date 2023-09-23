@@ -4,7 +4,7 @@
 
 | Project Login Page |
 |---------------------------------------|
-|<div align="center" width="100%"><img alt="Finance-Tracker login" src="app/assets/images/Finance-Tracker login.PNG"/></div>|
+|<div align="center" width="auto"><img alt="Finance-Tracker login" src="app/assets/images/Finance-Tracker login.PNG"/></div>|
 
 
 
