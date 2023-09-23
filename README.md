@@ -4,8 +4,8 @@
 
 | Project Login Page |
 |---------------------------------------|
-|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
-|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+|<img alt="Finance-Tracker login" src="app/assets/images/Finance-Tracker login.PNG">|
+
 
 
 <a name="readme-top"></a>
