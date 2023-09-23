@@ -4,7 +4,7 @@
 
 | Project Login Page |
 |---------------------------------------|
-|![image](https://github.com/baqar-abbas/recipe-app-capstone/assets/111179533/8178ab57-dbb2-40ad-9bdc-c5f605fb70e7)|
+||
 
 
 <a name="readme-top"></a>
@@ -81,7 +81,7 @@
 
 | Implemented Schema's ERD |
 |---------------------------------------|
-|<img width="374" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
