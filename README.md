@@ -81,7 +81,7 @@
 
 | Implemented Schema's ERD |
 |---------------------------------------|
-|![recipe_erd_2_members](https://github.com/baqar-abbas/recipe-app-capstone/assets/111179533/2200fd17-a5f5-4b47-895d-abc5e05f132f)|
+|<img width="374" alt="erd_diagram" src="">|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
