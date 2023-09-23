@@ -4,7 +4,8 @@
 
 | Project Login Page |
 |---------------------------------------|
-||
+|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
 
 
 <a name="readme-top"></a>
