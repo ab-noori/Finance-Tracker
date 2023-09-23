@@ -83,7 +83,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo & Project intro <a name="live-demo"></a>
-> - [Live Demo on Render](https://salsaldevgroup.onrender.com)
+> - [Live Demo on Render](https://finance-tracker-kxhn.onrender.com/)
 > - [Introduction to the project]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
