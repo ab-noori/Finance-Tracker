@@ -81,7 +81,7 @@
 
 | Implemented Schema's ERD |
 |---------------------------------------|
-|<img width="374" alt="erd_diagram" src="">|
+|<img width="374" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
