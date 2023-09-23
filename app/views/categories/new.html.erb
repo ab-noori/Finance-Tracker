@@ -1,0 +1,30 @@
+<%= render partial: 'layouts/shared/navbar', locals: { back_destination: root_path, page_name: 'New Category', link: { destination: destroy_user_session_path, label: 'Log Out' } } %>
+
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          New Category
+        </div>
+        <div class="card-body">
+          <%= form_with(model: @category, url: categories_path, method: :post) do |form| %>
+            <div class="mb-3">
+              <%= form.label :name, class: "form-label" %>
+              <%= form.text_field :name, class: "form-control" %>
+            </div>
+
+            <div class="mb-3">
+              <%= form.label :icon, class: "form-label" %>
+              <%= form.file_field :icon, class: "form-control" %>
+            </div>
+
+            <div class="text-center">
+              <%= form.submit 'Save', class: "btn btn-primary" %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

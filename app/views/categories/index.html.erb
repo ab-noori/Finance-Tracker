@@ -1,0 +1,44 @@
+<%= render partial: 'layouts/shared/navbar', locals: { back_destination: '', page_name: 'Categories', link: { destination: destroy_user_session_path, label: 'Log Out' } } %>
+<%= render partial: "layouts/shared/messages" %>
+
+<div class="container position-relative" style="min-height: 90vh; padding-bottom: 10vh">
+  <div class="row">
+    <% @categories.each do |category| %>
+      <div class="col-12">
+        <%= link_to category_path(category), class: "nav-link" do %>
+          <div class="card">
+            <div class="row no-gutters align-items-center">
+              <div class="col-md-2 col-4">
+                <div class="card-body">
+                  <% if category.icon.attached? %>
+                    <%= image_tag category.icon, style: 'width: 80px; height: 80px;', class: 'img-fluid rounded' %>
+                  <% else %>
+                    <div class="text-center">
+                      No Icon Available
+                    </div>
+                  <% end %>
+                </div>
+              </div>
+              <div class="col-md-8 col-5 p-0">
+                <div class="card-body text-secondary">
+                  <h4 class="card-title"><%= category.name %></h4>
+                  <p class="mb-0"><%= category.created_at.strftime("%d %b %Y %H:%M") %></p> <!-- Formatted date -->
+                </div>
+              </div>
+              <div class="col-md-2 col-3 text-md-center">
+                <div class="card-body text-dark font-weight-bold p-0 p-md-2">
+                  <!-- Include the total for the category here -->
+                  <h5 class="text-nowrap">$<%= category.expenses.sum(:amount) %></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  
+  <div class="mx-auto text-center mb-3" style="position: absolute; bottom: 0; width: 100%;">
+    <%= link_to "Add new category", new_category_path, class: "col-8 col-md-4 btn btn-success btn-lg" %>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<%= render partial: 'layouts/shared/navbar', locals: { back_destination: root_path, page_name: 'Sign Up', link: { destination: new_user_session_path, label: 'Log In' } } %>
+<%= render partial: "layouts/shared/messages" %>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= render "devise/shared/error_messages", resource: resource %>
+
+        <div class="mb-3">
+          <%= f.text_field :name, class: "form-control", placeholder: "Name", autocomplete: "name" %>
+        </div>
+
+        <div class="mb-3">
+          <%= f.email_field :email, class: "form-control", placeholder: "Email", autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="mb-3">
+          <%= f.password_field :password, class: "form-control", placeholder: "Password (6 characters minimum)", autocomplete: "new-password" %>
+        </div>
+
+        <div class="mb-3">
+          <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm Password", autocomplete: "new-password" %>
+        </div>
+
+        <div class="text-center">
+          <%= f.submit "Sign up", class: "btn btn-primary btn-md" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
