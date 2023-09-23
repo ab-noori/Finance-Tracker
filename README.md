@@ -86,7 +86,7 @@
  - [Live Demo on Render](https://finance-tracker-kxhn.onrender.com/)
  - [Introduction to the project](https://www.loom.com/share/928b45d5bd4c45d4bc95497e9ccc442f?sid=4e1fcb03-dfd3-4891-b610-0ff3c4545693)
    
-    > In this video, I introduce you to the Ruby On Rails project, which is a budget application called the finance tracker. I walk you through the login page, the home page, and the transaction page, explaining the features and functionalities of each. I also demonstrate how to create a new category and add a new transaction. Finally, I show you the mobile version of the application. Watch this video to get an overview of the project and its key components.
+    > In this video, I introduce you to the Ruby On Rails capstone project, which is a budget application called the finance tracker. I walk you through the login page, the home page, and the transaction page, explaining the features and functionalities of each. I also demonstrate how to create a new category and add a new transaction. Finally, I show you the mobile version of the application. Watch this video to get an overview of the project and its key components.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
