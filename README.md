@@ -68,17 +68,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Design the Application]**
-- **[Login page and registration page]**
-- **[Authentication]**
-- **[Navigation menu]**
-- **[General Shopping List]**
-- **[Food list]**
-- **[Recipes list]**
-- **[Recipe details]**
-- **[Public recipe list]**
-- **[Unit and integration tests]**
-- **[RSpec and Capybara testing]**
+- **[Splash screen]**
+- **[Sign up and log in pages]**
+- **[Home page (categories page)]**
+- **[Details page (transactions page)]**
+- **["Add a new category" page]**
+- **["Add a new transaction" page]**
 
 | Implemented Schema's ERD |
 |---------------------------------------|
@@ -155,10 +150,8 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[Inventories list]**
-- [ ] **[Inventory details]**
-- [ ] **[Recipe details]**
-- [ ] **[Inventory shopping list]**
+- [ ] **[Applying the edit and delete options for categories]**
+- [ ] **[Optimizing the project style for longer screen sizes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
