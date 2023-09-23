@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> # Recipe Application
+> # Finance Tracker
 
 | Project Login Page |
 |---------------------------------------|
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Recipe Application] <a name="about-project"></a>
+# 📖 [Finance Tracker] <a name="about-project"></a>
 
-> **[Recipe-App]** The Recipe app keeps track of all your recipes, ingredients, and inventory. It allows you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
+> **[Finance-Tracker]** The Ruby on Rails Budget-app project is aimed at creating a mobile web application that enables budget management, including user registration and login for data privacy, the introduction of new transactions linked to categories, and the display of expenditures per category.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
