@@ -2,11 +2,13 @@
 
 > # Finance Tracker
 
+<div align="center">
+
 | Project Login Page |
 | ----------------------------------------------------------------------------------------------------------------------- |
-| <div align="center" width="auto"><img alt="Finance-Tracker login" src="app/assets/images/Finance-Tracker login.PNG"/></div> |
+| <img alt="Finance-Tracker login" src="app/assets/images/Finance-Tracker login.PNG" width="auto"/> |
 
-
+</div>
 
 <a name="readme-top"></a>
 
