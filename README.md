@@ -78,9 +78,13 @@
 - **["Add a new category" page]**
 - **["Add a new transaction" page]**
 
-| Implemented Schema's ERD |
-|---------------------------------------|
-|<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+<div align="center">
+  
+  | Implemented Schema's ERD |
+  |---------------------------------------|
+  |<img width="auto" alt="erd_diagram" src="app/assets/images/erd_diagram.png">|
+  
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
