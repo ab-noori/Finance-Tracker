@@ -38,7 +38,7 @@
 
 # 📖 [Finance Tracker] <a name="about-project"></a>
 
-> **[Finance-Tracker]** The Ruby on Rails Budget-app project is aimed at creating a mobile web application that enables budget management, including user registration and login for data privacy, the introduction of new transactions linked to categories, and the display of expenditures per category.
+> **[Finance-Tracker]** The Ruby on Rails Budget-app project is aimed at creating a mobile web application that enables budget management, including user registration and login for data privacy, the introduction of new transactions linked to categories, and the display of expenditures per category.....
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
