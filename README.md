@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> # Finance Tracker...
+> # Finance Tracker
 
 <div align="center">
 
